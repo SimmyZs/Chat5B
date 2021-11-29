@@ -43,9 +43,7 @@ public class CChat {
     public InetAddress getIndirizzoD() {
         return indirizzoD;
     } 
-    public void setIndirizzoD(InetAddress indirizzoDestinatario) {
-        this.indirizzoD = indirizzoDestinatario;
-    }
+
     public String getNicknameD() {
         return nicknameD;
     }

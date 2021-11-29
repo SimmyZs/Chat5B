@@ -4,6 +4,8 @@
  */
 package chat5b;
 
+import java.net.SocketException;
+
 /**
  *
  * @author simon
@@ -12,9 +14,12 @@ public class Chat5B {
 
     /**
      * @param args the command line arguments
+     * @throws java.net.SocketException
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws SocketException {
+        String nickname="simone";
+        CSendRecive sr=new CSendRecive();
+        CChat chat=new CChat(nickname,sr);
     }
     
 }
